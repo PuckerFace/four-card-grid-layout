@@ -65,12 +65,12 @@ p{
 .card{
     padding: 30px;
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
     box-shadow: 5px 3px 15px 2px var(--clr-gray-blue);
-    margin: auto;
+    margin: auto; 
 }
 .card_cyan{
     border-top: 5px solid var(--clr-cyan);
@@ -115,6 +115,7 @@ img{
     .card_cyan{
         grid-area: cyanBox;
         align-self: center;
+        justify-self: stretch;
     }
     .card_red{
         grid-area:redBox;
@@ -123,6 +124,7 @@ img{
     .card_blue{
         grid-area: blueBox;
         align-self: center;
+        justify-self: stretch;
     }
     .card_yellow{
         grid-area: yellowBox;
